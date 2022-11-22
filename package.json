@@ -3,7 +3,10 @@
   "packageManager": "yarn@3.3.0",
   "dependencies": {
     "import-meta-resolve": "^2.1.0",
-    "remark": "^14.0.2",
-    "request": "^2.88.2"
+    "remark": "^14.0.2"
+  },
+  "scripts": {
+    "start": "node --experimental-import-meta-resolve test.mjs",
+    "start:noflag": "node test.mjs"
   }
 }
